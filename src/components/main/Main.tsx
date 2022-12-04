@@ -6,11 +6,9 @@ export const Main: Component = () => {
   return (
     <main class="bg-white py-5">
       <div class="container container__lg">
-        <div class="row gx-5">
-          <div class="col-sm-8">
-            <BlogList />
-          </div>
-          <div class="col-sm-4">
+        <div class="sidebar-wrapper sp-6">
+          <BlogList />
+          <div class="sidebar" style="--sidebar-basis: 5rem;">
             <Sidebar />
           </div>
         </div>

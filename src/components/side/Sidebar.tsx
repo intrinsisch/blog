@@ -5,10 +5,10 @@ import { TagList } from "./TagList";
 
 export const Sidebar: Component = () => {
   return (
-    <>
+    <div class="stack">
       <Bio />
       <TagList />
       <Ad />
-    </>
+    </div>
   );
 };
