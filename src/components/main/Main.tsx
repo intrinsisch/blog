@@ -5,7 +5,7 @@ import { Sidebar } from "../side/Sidebar";
 export const Main: Component = () => {
   return (
     <main class="bg-white py-5">
-      <div class="container">
+      <div class="container container__lg">
         <div class="row gx-5">
           <div class="col-sm-8">
             <BlogList />
