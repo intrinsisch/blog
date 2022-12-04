@@ -2,7 +2,7 @@ import { Component } from "solid-js";
 
 export const Footer: Component = () => {
   return (
-    <footer class="container-fluid pt-4">
+    <footer class="container-fluid stack">
       <div class="row">
         <div class="col-sm">
           <h5 class="fw-bolder">Newsletter</h5>

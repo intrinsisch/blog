@@ -5,10 +5,10 @@ import { Pagination } from "./Pagination";
 
 export const BlogList: Component = () => {
   return (
-    <>
+    <div class="stack">
       <h1>Latest posts</h1>
       <For each={blogEntries}>{(entry) => <BlogEntry {...entry} />}</For>
       <Pagination />
-    </>
+    </div>
   );
 };

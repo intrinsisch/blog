@@ -9,7 +9,7 @@ export type Blog = {
 
 export const BlogEntry: Component<Blog> = (props) => {
   return (
-    <article class="py-4">
+    <article class="py-4 stack" style="--stack-gap: 0.5rem">
       <div class="d-flex flex-wrap gap-1 mb-2">
         <For each={props.tags}>
           {(tag) => <a href="#"><span class="badge rounded-pill text-bg-dark">{tag}</span></a>}
