@@ -19,6 +19,12 @@ To run the development environment in a container the `/.devcontainer/Dockerfile
 $ yarn
 ```
 
+## Pull framework changes
+
+```sh
+$ git submodule update --remote framework
+```
+
 ## Development
 
 ```sh
