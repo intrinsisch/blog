@@ -3,6 +3,6 @@
 
 @include g.use-layer("global") {
   body {
-    @include c.color-palette("accent");
+    @include c.color-palette("primary-dark");
   }
 }
