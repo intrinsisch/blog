@@ -9,7 +9,7 @@ export type Blog = {
 
 export const BlogEntry: Component<Blog> = (props) => {
   return (
-    <article class="py-4 stack sp-2">
+    <article class="py-4 stack spa-4">
       <div class="d-flex flex-wrap gap-1 mb-2">
         <For each={props.tags}>
           {(tag) => (
@@ -23,9 +23,11 @@ export const BlogEntry: Component<Blog> = (props) => {
         <a href="#">{props.title}</a>
       </h2>
       <p class="lead">{props.summary}</p>
-      <button class="btn btn-sm btn-light">
-        Read more <i class="fa-light fa-arrow-right"></i>
-      </button>
+      <div>
+        <button>
+          Read more <i class="fa-light fa-arrow-right"></i>
+        </button>
+      </div>
     </article>
   );
 };
