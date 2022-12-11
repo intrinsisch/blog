@@ -1,6 +1,7 @@
-@use "../../../../framework/src/utils/color-utils.scss" as c;
+@use "../../../../framework/src/general/colors/" as c;
+@use "../../../../framework/src/general/" as g;
 
-@layer local.global {
+@include g.use-layer("global") {
   body {
     @include c.color-palette("accent");
   }
