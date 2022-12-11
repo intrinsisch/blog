@@ -5,4 +5,7 @@
   body {
     @include c.color-palette("primary-dark");
   }
+  main {
+    @include c.color-palette("neutral");
+  }
 }
